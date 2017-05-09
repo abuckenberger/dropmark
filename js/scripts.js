@@ -22,9 +22,10 @@ var setStuff = {};
 var doStuff = function(data) {
 
   console.log(data.items);
-  
+  console.log(data.items[0]);
+  console.log(data.items[0].thumbnails.mini);
   // What do you want to do? Show (display on page) data? 
-  showStuff(data);
+  //showStuff(data);
   
 };
 
